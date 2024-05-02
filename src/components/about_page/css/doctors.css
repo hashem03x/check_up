@@ -1,0 +1,34 @@
+.team {
+  background: #ffffff;
+  padding: 60px;
+}
+.team_row {
+  margin-top: 79px;
+}
+.team_item {
+  width: 100%;
+  height: 100%;
+}
+.team_image {
+  width: 100%;
+}
+.team_image img {
+  max-width: 100%;
+}
+.team_content {
+  padding-top: 37px;
+}
+.team_name a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #404040;
+}
+.team_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #57ccc3;
+  margin-top: 3px;
+}
+.team_text {
+  margin-top: 22px;
+}

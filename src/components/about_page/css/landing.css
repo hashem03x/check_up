@@ -1,0 +1,44 @@
+.landing {
+  position: relative;
+}
+
+.landing-text {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  transform: translate(-10%, -50%);
+}
+
+.landing-text h2 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #404040;
+}
+.landing-text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  margin-top: 1px;
+}
+
+.landing-overlay {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+@media (max-width: 797px) {
+  .landing-text {
+    left: 10%;
+    top: 35%;
+  }
+  .landing-text h2 {
+    font-size: 34px;
+  }
+  .landing-text p {
+    font-size: 12px;
+  }
+}

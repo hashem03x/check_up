@@ -1,0 +1,7 @@
+.site-footer {
+  background: var(--section-bg-color);
+}
+
+.copyright-text {
+  font-size: var(--menu-font-size);
+}

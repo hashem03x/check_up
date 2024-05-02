@@ -1,0 +1,15 @@
+.special_link {
+  color: var(--primary-color) !important;
+  font-size: var(--h5-font-size) !important;
+  font-weight: var(--font-weight-bold) !important;
+  margin: 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.special_link strong {
+  color: var(--p-color);
+  font-size: 12px;
+  position: relative;
+  bottom: 5px;
+}

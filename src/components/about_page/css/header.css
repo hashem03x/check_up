@@ -1,0 +1,48 @@
+a {
+  text-decoration: none !important;
+}
+.logo a > div:first-child {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0.75;
+  color: #353535;
+}
+.logo a > div:first-child span {
+  color: #247cff;
+  margin-left: 7px;
+}
+.logo a > div:last-child {
+  font-size: 40px;
+  color: #969696;
+  font-weight: 500;
+  line-height: 0.75;
+  margin-top: 0px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links a {
+  margin-right: 18px;
+}
+.nav-bar-button {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  padding-right: 36px;
+  line-height: 42px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #247cff;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s;
+}
+.nav-bar-button:hover {
+  background-color: white;
+  color: #247cff;
+  border: 2px solid;
+}
